@@ -1,7 +1,38 @@
 const fares = {
-  "circle-kaneshie": 3.00, "kaneshie-circle": 3.00,
-  "circle-accra-mall": 4.50, "accra-mall-circle": 4.50,
-  "kaneshie-accra-mall": 5.00, "accra-mall-kaneshie": 5.00
+  "Circle": { 
+    "Kaneshie": 3.00, 
+    "Accra Mall": 4.50, 
+    "Tudu": 2.50,
+    "Makola": 2.00,
+    "Lapaz": 4.00
+  },
+  "Kaneshie": { 
+    "Circle": 3.00, 
+    "Accra Mall": 5.00, 
+    "Tudu": 3.50,
+    "Makola": 3.00,
+    "Lapaz": 2.50
+  },
+  "Accra Mall": { 
+    "Circle": 4.50, 
+    "Kaneshie": 5.00,
+    "Tudu": 6.00,
+    "Makola": 5.50
+  },
+  "Tudu": {
+    "Circle": 2.50,
+    "Kaneshie": 3.50,
+    "Makola": 1.50
+  },
+  "Makola": {
+    "Circle": 2.00,
+    "Kaneshie": 3.00,
+    "Tudu": 1.50
+  },
+  "Lapaz": {
+    "Circle": 4.00,
+    "Kaneshie": 2.50
+  }
 };
 
 function calculateFare() {
