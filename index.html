@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accra Trotro Fare Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚐 Accra Trotro Fare Calculator</h1>
+  <p>Built by Captain Ali for KAUST/OIST 2026</p>
+  <div class="calculator">
+    <label>From:</label>
+    <select id="from">
+      <option value="">Select location</option>
+      <option value="circle">Circle</option>
+      <option value="kaneshie">Kaneshie</option>
+      <option value="accra-mall">Accra Mall</option>
+    </select>
+    <label>To:</label>
+    <select id="to">
+      <option value="">Select location</option>
+      <option value="circle">Circle</option>
+      <option value="kaneshie">Kaneshie</option>
+      <option value="accra-mall">Accra Mall</option>
+    </select>
+    <button onclick="calculateFare()">Calculate Fare</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
