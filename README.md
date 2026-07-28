@@ -1,2 +1,6 @@
-# Jerome-s-ghana-trotro-fare
-Web app to calculate trotro fares across Accra, Ghana. Built with HTML, CSS, JavaScript. Created to solve daily transport challenges for students. Portfolio project for KAUST/OIST 2026 research applications.
+# Ghana Trotro Fare Calculator
+Problem: 2M+ people in Accra struggle with unpredictable trotro fares.
+Solution: A web app to estimate fares between major Accra locations.
+Tech: HTML, CSS, JavaScript
+Future: Add ML to predict traffic + fare changes, GPS integration
+Live Demo: [ https://jeralied.github.io/Jerome-s-ghana-trotro-fare/ ]
