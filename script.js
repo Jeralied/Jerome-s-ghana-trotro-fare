@@ -22,7 +22,8 @@ const fares = {
   "Tudu": {
     "Circle": 2.50,
     "Kaneshie": 3.50,
-    "Makola": 1.50
+    "Makola": 1.50,
+    "Lapaz": 5.00  //
   },
   "Makola": {
     "Circle": 2.00,
@@ -32,6 +33,7 @@ const fares = {
   "Lapaz": {
     "Circle": 4.00,
     "Kaneshie": 2.50
+    "Tudu": 5.00  //
   }
 };
 
