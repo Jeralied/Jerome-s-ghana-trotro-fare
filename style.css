@@ -25,10 +25,31 @@ h1 {
     font-size: 28px;
 }
 
+.subtitle-container {
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
 .subtitle {
     color: #555;
-    margin-bottom: 30px;
     font-size: 14px;
+    margin: 0;
+    line-height: 40px;
+}
+
+.bus {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    font-size: 24px;
+    animation: driveBus 6s linear infinite;
+}
+
+@keyframes driveBus {
+    0% { left: -50px; }
+    100% { left: 110%; }
 }
 
 label {
@@ -79,29 +100,4 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
     color: #006B3F;
-}
-.subtitle-container {
-    position: relative;
-    height: 40px;
-    overflow: hidden;
-    margin-bottom: 30px;
-}
-
-.subtitle {
-    color: #555;
-    font-size: 14px;
-    margin: 0;
-    line-height: 40px;
-}
-
-.bus {
-    position: absolute;
-    top: 0;
-    left: -50px;
-    font-size: 24px;
-    animation: driveBus 6s linear infinite;
-}
-@keyframes driveBus {
-    0% { left: -50px; }
-    100% { left: 110%; }
 }
