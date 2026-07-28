@@ -17,23 +17,29 @@ const fares = {
     "Circle": 4.50, 
     "Kaneshie": 5.00,
     "Tudu": 6.00,
-    "Makola": 5.50
+    "Makola": 5.50,
+    "Lapaz": 7.00
   },
   "Tudu": {
     "Circle": 2.50,
     "Kaneshie": 3.50,
     "Makola": 1.50,
-    "Lapaz": 5.00  //
+    "Accra Mall": 6.00,
+    "Lapaz": 5.00
   },
   "Makola": {
     "Circle": 2.00,
     "Kaneshie": 3.00,
-    "Tudu": 1.50
+    "Tudu": 1.50,
+    "Accra Mall": 5.50,
+    "Lapaz": 4.50
   },
   "Lapaz": {
     "Circle": 4.00,
-    "Kaneshie": 2.50
-    "Tudu": 5.00  //
+    "Kaneshie": 2.50,
+    "Tudu": 5.00,
+    "Accra Mall": 7.00,
+    "Makola": 4.50
   }
 };
 
