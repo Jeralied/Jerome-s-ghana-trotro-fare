@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Fixed: was center, was stretching it */
 }
 
 .container {
@@ -17,6 +17,7 @@ body {
     max-width: 450px;
     width: 90%;
     text-align: center;
+    margin-top: 50px; /* Fixed: pushes it down so it's not hugging top */
 }
 
 h1 {
@@ -67,6 +68,7 @@ select {
     border-radius: 10px;
     font-size: 16px;
     transition: 0.3s;
+    box-sizing: border-box; /* Added so padding doesn't break width */
 }
 
 select:focus {
@@ -86,6 +88,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.2s;
+    box-sizing: border-box;
 }
 
 button:hover {
