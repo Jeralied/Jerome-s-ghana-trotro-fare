@@ -1,12 +1,12 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #CE1126 0%, #FCD116 50%, #006B3F 100%); /* Ghana flag gradient */
+    background: linear-gradient(135deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%); /* Professional blue gradient */
     margin: 0;
     padding: 20px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Fixed: was center, was stretching it */
+    align-items: flex-start;
 }
 
 .container {
@@ -17,11 +17,11 @@ body {
     max-width: 450px;
     width: 90%;
     text-align: center;
-    margin-top: 50px; /* Fixed: pushes it down so it's not hugging top */
+    margin-top: 50px;
 }
 
 h1 {
-    color: #CE1126;
+    color: #0052D4; /* Deep blue */
     margin-bottom: 5px;
     font-size: 28px;
 }
@@ -68,11 +68,11 @@ select {
     border-radius: 10px;
     font-size: 16px;
     transition: 0.3s;
-    box-sizing: border-box; /* Added so padding doesn't break width */
+    box-sizing: border-box;
 }
 
 select:focus {
-    border-color: #006B3F;
+    border-color: #0052D4; /* Blue focus */
     outline: none;
 }
 
@@ -80,7 +80,7 @@ button {
     width: 100%;
     padding: 15px;
     margin-top: 20px;
-    background: linear-gradient(90deg, #CE1126, #FCD116, #006B3F);
+    background: linear-gradient(90deg, #0052D4, #4364F7); /* Blue button */
     color: white;
     border: none;
     border-radius: 12px;
@@ -98,9 +98,9 @@ button:hover {
 .result {
     margin-top: 25px;
     padding: 15px;
-    background: #e8f5e9;
+    background: #e3f2fd; /* Light blue result box */
     border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
-    color: #006B3F;
+    color: #0052D4;
 }
