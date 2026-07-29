@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Accra Trotro Fare Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accra Trotro Fare Calculator | Ghana Transport Tool</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +19,8 @@
     <p class="subtitle">Built by Ali for KAUST/OIST 2026 🇬🇭</p>
     <div class="bus">🚌</div>
 </div>
-    <label>From:</label>
+   <div class="calculator">
+    <label for="from">From:</label>
    <select id="from">
   <option value="Circle">Circle</option>
   <option value="Kaneshie">Kaneshie</option>
@@ -26,7 +29,7 @@
   <option value="Makola">Makola</option>
   <option value="Lapaz">Lapaz</option>
 </select>
-    <label>To:</label>
+   <label for="to">To:</label>
 <select id="to">
   <option value="Circle">Circle</option>
   <option value="Kaneshie">Kaneshie</option>
@@ -36,7 +39,9 @@
   <option value="Lapaz">Lapaz</option>
 </select>
     <button id="calculateBtn">Calculate Fare</button>
-  <button onclick="alert('We are adding 50+ more Accra routes. Follow the GitHub for updates!')" 
+ <button onclick="alert('We are adding 50+ more Accra routes. Follow the GitHub for updates!')" class="route-btn">
+  🗺️ More Routes Coming Soon
+</button>
 style="background:#ff9800; color:white; border:none; padding:10px; border-radius:8px; margin-top:10px; cursor:pointer;">
   🗺️ Request New Route
 </button>
