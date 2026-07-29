@@ -4,7 +4,7 @@
 
 With public transport fares rising 20% nationwide as of June 2026 (per GPRTU), knowing what you should actually pay matters more than ever. Trotro remains one of the most widely used forms of transport in Accra, yet fares can shift with fuel prices, route, and time of day — leaving commuters guessing at the station.
 
-**Live site:** https://jeralied.github.io/Jerome-s-ghana-trotro-fare/
+**Live site:** https://jeralied.github.io/Jerome-s-ghana-trotro-fare/ ![Demo of the fare calculator in action](demo.gif)
 
 ## The Problem
 
