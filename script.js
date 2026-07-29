@@ -26,14 +26,14 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
       "Lapaz": 6.00
     },
     "Tudu": {
-      "Circle": 6.00,
+      "Circle": 3.50,
       "Kaneshie": 8.00,
       "Makola": 3.00,
       "Accra Mall": 8.00,
       "Lapaz": 7.00
     },
     "Makola": {
-      "Circle": 3.50,
+      "Circle": 3.00,
       "Kaneshie": 6.00,
       "Tudu": 3.00,
       "Accra Mall": 7.00,
