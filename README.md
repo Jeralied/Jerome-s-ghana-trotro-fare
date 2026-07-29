@@ -29,7 +29,7 @@ Fare data is based on current GPRTU (Ghana Private Road Transport Union) rate gu
 
 ## Feedback
 
-Tested informally with fellow GCTU students and a few regular trotro commuters — feedback used to refine station list and fare accuracy.
+Tested with 4 GCTU friends across multiple routes (Circle-Kaneshie, Circle-Lapaz, Tudu-Makola, and Accra Mall-Kaneshie). All confirmed the fares matched what they'd normally expect to pay, and the interface was simple enough to use without any explanation. No issues or confusing points were reported.
 
 ## What's Next (Phase 2)
 
