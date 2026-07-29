@@ -4,47 +4,47 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
   const resultDiv = document.getElementById('result');
 
   const fares = {
-    "Circle": { 
-      "Kaneshie": 5.50, 
-      "Accra Mall": 6.00, 
-      "Tudu": 3.50,
-      "Makola": 3.00,
-      "Lapaz": 4.00
+    "Circle": {
+      "Kaneshie":   { price: 5.50, time: "20 mins" },
+      "Accra Mall": { price: 6.00, time: "25 mins" },
+      "Tudu":       { price: 3.50, time: "10 mins" },
+      "Makola":     { price: 3.00, time: "8 mins"  },
+      "Lapaz":      { price: 4.00, time: "18 mins" }
     },
-    "Kaneshie": { 
-      "Circle": 5.50, 
-      "Accra Mall": 5.00, 
-      "Tudu": 8.00,
-      "Makola": 6.00,
-      "Lapaz": 3.00
+    "Kaneshie": {
+      "Circle":     { price: 5.50, time: "20 mins" },
+      "Accra Mall": { price: 5.00, time: "28 mins" },
+      "Tudu":       { price: 8.00, time: "15 mins" },
+      "Makola":     { price: 6.00, time: "15 mins" },
+      "Lapaz":      { price: 3.00, time: "12 mins" }
     },
-    "Accra Mall": { 
-      "Circle": 6.00, 
-      "Kaneshie": 5.00,
-      "Tudu": 8.00,
-      "Makola": 7.00,
-      "Lapaz": 6.00
+    "Accra Mall": {
+      "Circle":     { price: 6.00, time: "25 mins" },
+      "Kaneshie":   { price: 5.00, time: "28 mins" },
+      "Tudu":       { price: 8.00, time: "30 mins" },
+      "Makola":     { price: 7.00, time: "30 mins" },
+      "Lapaz":      { price: 6.00, time: "28 mins" }
     },
     "Tudu": {
-      "Circle": 3.50,
-      "Kaneshie": 8.00,
-      "Makola": 3.00,
-      "Accra Mall": 8.00,
-      "Lapaz": 7.00
+      "Circle":     { price: 3.50, time: "10 mins" },
+      "Kaneshie":   { price: 8.00, time: "15 mins" },
+      "Makola":     { price: 3.00, time: "7 mins"  },
+      "Accra Mall": { price: 8.00, time: "30 mins" },
+      "Lapaz":      { price: 7.00, time: "25 mins" }
     },
     "Makola": {
-      "Circle": 3.00,
-      "Kaneshie": 6.00,
-      "Tudu": 3.00,
-      "Accra Mall": 7.00,
-      "Lapaz": 6.00
+      "Circle":     { price: 3.00, time: "8 mins"  },
+      "Kaneshie":   { price: 6.00, time: "15 mins" },
+      "Tudu":       { price: 3.00, time: "7 mins"  },
+      "Accra Mall": { price: 7.00, time: "30 mins" },
+      "Lapaz":      { price: 6.00, time: "22 mins" }
     },
     "Lapaz": {
-      "Circle": 4.00,
-      "Kaneshie": 3.00,
-      "Tudu": 7.00,
-      "Accra Mall": 6.00,
-      "Makola": 6.00
+      "Circle":     { price: 4.00, time: "18 mins" },
+      "Kaneshie":   { price: 3.00, time: "12 mins" },
+      "Tudu":       { price: 7.00, time: "25 mins" },
+      "Accra Mall": { price: 6.00, time: "28 mins" },
+      "Makola":     { price: 6.00, time: "22 mins" }
     }
   };
 
@@ -55,8 +55,8 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
   }
 
   if (fares[from] && fares[from][to]) {
-    const fare = fares[from][to].toFixed(2);
-    resultDiv.innerHTML = `✅ Fare from ${from} to ${to}: <b>GHS ${fare}</b>`;
+    const route = fares[from][to];
+    resultDiv.innerHTML = `✅ Fare from ${from} to ${to}: <b>GHS ${route.price.toFixed(2)}</b> · ⏱️ Estimated time: <b>${route.time}</b>`;
     resultDiv.className = 'success';
   } else {
     resultDiv.innerHTML = `😅 Route not available yet. More routes coming soon!`;
