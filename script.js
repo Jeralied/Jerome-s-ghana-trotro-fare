@@ -5,46 +5,46 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
 
   const fares = {
     "Circle": { 
-      "Kaneshie": 3.00, 
-      "Accra Mall": 4.50, 
-      "Tudu": 2.50,
-      "Makola": 2.00,
+      "Kaneshie": 5.50, 
+      "Accra Mall": 6.00, 
+      "Tudu": 3.50,
+      "Makola": 3.00,
       "Lapaz": 4.00
     },
     "Kaneshie": { 
-      "Circle": 3.00, 
+      "Circle": 5.50, 
       "Accra Mall": 5.00, 
-      "Tudu": 3.50,
-      "Makola": 3.00,
-      "Lapaz": 2.50
+      "Tudu": 8.00,
+      "Makola": 6.00,
+      "Lapaz": 3.00
     },
     "Accra Mall": { 
-      "Circle": 4.50, 
+      "Circle": 6.00, 
       "Kaneshie": 5.00,
-      "Tudu": 6.00,
-      "Makola": 5.50,
-      "Lapaz": 7.00
+      "Tudu": 8.00,
+      "Makola": 7.00,
+      "Lapaz": 6.00
     },
     "Tudu": {
-      "Circle": 2.50,
-      "Kaneshie": 3.50,
-      "Makola": 1.50,
-      "Accra Mall": 6.00,
-      "Lapaz": 5.00
+      "Circle": 6.00,
+      "Kaneshie": 8.00,
+      "Makola": 3.00,
+      "Accra Mall": 8.00,
+      "Lapaz": 7.00
     },
     "Makola": {
-      "Circle": 2.00,
-      "Kaneshie": 3.00,
-      "Tudu": 1.50,
-      "Accra Mall": 5.50,
-      "Lapaz": 4.50
+      "Circle": 3.50,
+      "Kaneshie": 6.00,
+      "Tudu": 3.00,
+      "Accra Mall": 7.00,
+      "Lapaz": 6.00
     },
     "Lapaz": {
       "Circle": 4.00,
-      "Kaneshie": 2.50,
-      "Tudu": 5.00,
-      "Accra Mall": 7.00,
-      "Makola": 4.50
+      "Kaneshie": 3.00,
+      "Tudu": 7.00,
+      "Accra Mall": 6.00,
+      "Makola": 6.00
     }
   };
 
