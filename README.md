@@ -4,7 +4,9 @@
 
 With public transport fares rising 20% nationwide as of June 2026 (per GPRTU), knowing what you should actually pay matters more than ever. Trotro remains one of the most widely used forms of transport in Accra, yet fares can shift with fuel prices, route, and time of day — leaving commuters guessing at the station.
 
-**Live site:** https://jeralied.github.io/Jerome-s-ghana-trotro-fare/ ![Demo of the fare calculator in action](demo.gif)
+**Live site:** https://jeralied.github.io/Jerome-s-ghana-trotro-fare/
+
+![Demo of the fare calculator in action](demo.gif)
 
 ## The Problem
 
@@ -17,13 +19,14 @@ A simple, mobile-first web app that estimates trotro fares for popular routes ac
 ## Features
 
 - **Instant Fare Calculation** — get an estimate in seconds
+- **Estimated Travel Time** — know roughly how long the journey takes, not just the cost
 - **Mobile Responsive** — built to work cleanly on any phone
 - **Accra-Focused** — real routes commuters actually use
 - **Updated for 2026** — fare data reflects the recent GPRTU 20% adjustment
 
 ## How Fares Are Sourced
 
-Fare data is based on current GPRTU rate guidance (post the June 2026 20% increase), cross-checked with local conductors on each listed route. Fares can still shift slightly with fuel prices or time of day — this app is a reliable *estimate*, not an official rate authority.
+Fare and travel time data is based on current GPRTU rate guidance (post the June 2026 20% increase) and typical Accra traffic conditions, cross-checked with local conductors on each listed route. Both fares and times can shift with fuel prices, congestion, or time of day — this app is a reliable *estimate*, not an official rate or timing authority.
 
 ## Tech Stack
 
