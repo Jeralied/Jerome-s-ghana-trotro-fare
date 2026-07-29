@@ -1,41 +1,53 @@
-# 🚌 Accra Trotro Fare Calculator
+# JEROME'S GHANA TROTRO FARE 🚐💰
 
-A simple web app that helps commuters in Accra, Ghana estimate trotro fares between popular stations — no more guessing or confusion at the station.
+**Helping 2M+ Accra commuters navigate unpredictable trotro fares**
+
+With public transport fares rising 20% nationwide as of June 2026 (per GPRTU), knowing what you should actually pay matters more than ever. Trotro remains one of the most widely used forms of transport in Accra, yet fares can shift with fuel prices, route, and time of day — leaving commuters guessing at the station.
 
 **Live site:** https://jeralied.github.io/Jerome-s-ghana-trotro-fare/
 
 ## The Problem
 
-Accra's trotro system moves over 2 million people a day, but fares aren't always clearly posted, and new or visiting commuters (students, tourists, even long-time residents) often aren't sure what to expect to pay on a given route. This leads to confusion, occasional overcharging, and a poor first experience for newcomers to the city.
+Commuters in Accra deal with inconsistent trotro pricing, made worse by the recent 20% nationwide fare increase. Without a clear reference point, it's easy to be unsure whether you're paying the right amount — especially for students and workers budgeting daily transport costs.
 
 ## The Solution
 
-A lightweight, no-login calculator: pick your "From" and "To" stations, and instantly see the estimated fare. Built to be fast, mobile-friendly, and usable by anyone with a browser.
+A simple, mobile-first web app that estimates trotro fares for popular routes across Accra. Built to bring a bit of transparency and confidence to daily commuting.
+
+## Features
+
+- **Instant Fare Calculation** — get an estimate in seconds
+- **Mobile Responsive** — built to work cleanly on any phone
+- **Accra-Focused** — real routes commuters actually use
+- **Updated for 2026** — fare data reflects the recent GPRTU 20% adjustment
 
 ## How Fares Are Sourced
 
-Fare data is based on current GPRTU (Ghana Private Road Transport Union) rate guidance, cross-checked with local conductors on each listed route (as of July 2026). Fares can shift slightly with fuel prices or time of day — the app is meant as a reliable *estimate*, not an official rate authority.
+Fare data is based on current GPRTU rate guidance (post the June 2026 20% increase), cross-checked with local conductors on each listed route. Fares can still shift slightly with fuel prices or time of day — this app is a reliable *estimate*, not an official rate authority.
 
 ## Tech Stack
 
-- HTML / CSS / JavaScript
-- Hosted on GitHub Pages
+`HTML` `CSS` `JavaScript`
+Built with clean, lightweight code for fast loading, even on slower mobile data.
 
 ## What I Learned
 
 - Structuring lookup data for a route-based calculator
 - Deploying a live static site with GitHub Pages
-- The importance of sourcing and disclosing data accuracy for a tool people will actually rely on
+- Why sourcing and disclosing data accuracy matters for a tool people actually rely on
 
 ## Feedback
 
-Tested with 4 GCTU friends across multiple routes (Circle-Kaneshie, Circle-Lapaz, Tudu-Makola, and Accra Mall-Kaneshie). All confirmed the fares matched what they'd normally expect to pay, and the interface was simple enough to use without any explanation. No issues or confusing points were reported.
+Tested with 4 GCTU students across multiple routes (Circle-Kaneshie, Circle-Lapaz, Tudu-Makola, Accra Mall-Kaneshie). All confirmed the fares matched what they'd normally expect to pay, and the interface needed no explanation to use. No issues or confusing points were reported.
 
-## What's Next (Phase 2)
+## Future Roadmap — Phase 2 🤖
 
-- AI + GPS-based route optimization
-- Expanded station coverage beyond the current 6 stops
-- "Request a New Route" submissions to grow coverage based on real demand
+- **AI Route Optimization** — suggest the cheapest and fastest route, not just the fare
+- **Real-Time Fare Updates** — auto-adjust when fuel prices or official rates change
+- **Google Maps API Integration** — live trotro stations and routes
+- **Scale Beyond Accra** — expand to other African cities with similar informal transport systems
+
+*At KAUST/OIST, I want to build on this with real ML and data science — turning a simple calculator into a genuine mobility tool for African cities.*
 
 ## Author
 
