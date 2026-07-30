@@ -1,4 +1,4 @@
-# JEROME'S GHANA TROTRO FARE 🚐💰
+# JEROME'S GHANA TROTRO FARE
 
 **Helping 2M+ Accra commuters navigate unpredictable trotro fares**
 
@@ -43,7 +43,7 @@ Built with clean, lightweight code for fast loading, even on slower mobile data.
 
 Tested with 4 GCTU students across multiple routes (Circle-Kaneshie, Circle-Lapaz, Tudu-Makola, Accra Mall-Kaneshie). All confirmed the fares matched what they'd normally expect to pay, and the interface needed no explanation to use. No issues or confusing points were reported.
 
-## Future Roadmap — Phase 2 🤖
+## Future Roadmap — Phase 2 
 
 - **AI Route Optimization** — suggest the cheapest and fastest route, not just the fare
 - **Real-Time Fare Updates** — auto-adjust when fuel prices or official rates change
@@ -54,4 +54,4 @@ Tested with 4 GCTU students across multiple routes (Circle-Kaneshie, Circle-Lapa
 
 ## Author
 
-Built by Jerome (Ali), GCTU student, Ghana 🇬🇭
+Built by Jerome (Ali), GCTU student, Ghana 
