@@ -6,7 +6,7 @@ With public transport fares rising 20% nationwide as of June 2026 (per GPRTU), k
 
 **Live site:** https://jeralied.github.io/Jerome-s-ghana-trotro-fare/
 
-![https://youtube.com/shorts/MoWKXEP80vI?si=3mVAWmNyja-hDtKE](demo.gif)
+https://youtube.com/shorts/MoWKXEP80vI?si=3mVAWmNyja-hDtKE(demo.gif)
 
 ## The Problem
 
