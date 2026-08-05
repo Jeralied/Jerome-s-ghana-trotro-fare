@@ -2,6 +2,13 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
   const from = document.getElementById('from').value;
   const to = document.getElementById('to').value;
   const resultDiv = document.getElementById('result');
+  const swapBtn = document.getElementById("swapBtn");
+
+swapBtn.addEventListener("click", () => {
+    const temp = from.value;
+    from.value = to.value;
+    to.value = temp;
+});
 
   const fares = {
     "Circle": {
