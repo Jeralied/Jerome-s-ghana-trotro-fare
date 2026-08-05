@@ -2,13 +2,7 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
   const from = document.getElementById('from').value;
   const to = document.getElementById('to').value;
   const resultDiv = document.getElementById('result');
-  const swapBtn = document.getElementById("swapBtn");
-
-swapBtn.addEventListener("click", () => {
-    const temp = from.value;
-    from.value = to.value;
-    to.value = temp;
-});
+ 
 const fares = {
   "Circle": {
     "Kaneshie":   { price: 5.00, time: "20 mins" },
@@ -227,7 +221,14 @@ const fares = {
     resultDiv.className = 'error';
     return;
   }
+   const swapBtn = document.getElementById("swapBtn");
 
+swapBtn.addEventListener("click", () => {
+    const temp = from.value;
+    from.value = to.value;
+    to.value = temp;
+});
+  
   if (fares[from] && fares[from][to]) {
     const route = fares[from][to];
     resultDiv.innerHTML = `Estimated Fare from ${from} to ${to}: <b>GHS ${route.price.toFixed(2)}</b> · Estimated Travel Time: <b>${route.time}</b>`;
