@@ -59,7 +59,11 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
     resultDiv.innerHTML = `✅ Fare from ${from} to ${to}: <b>GHS ${route.price.toFixed(2)}</b> · ⏱️ Estimated time: <b>${route.time}</b>`;
     resultDiv.className = 'success';
   } else {
-    resultDiv.innerHTML = `😅 Route not available yet. More routes coming soon!`;
+    result.innerHTML = `
+<h3>Route Unavailable</h3>
+<p>This route is currently unavailable.</p>
+<p>More routes will be added in future updates.</p>
+`;
     resultDiv.className = 'error';
   }
 });
