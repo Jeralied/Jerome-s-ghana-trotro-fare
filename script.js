@@ -230,7 +230,7 @@ const fares = {
 
   if (fares[from] && fares[from][to]) {
     const route = fares[from][to];
-    resultDiv.innerHTML = `Fare from ${from} to ${to}: <b>GHS ${route.price.toFixed(2)}</b> · ⏱️ Estimated time: <b>${route.time}</b>`;
+    resultDiv.innerHTML = `Fare from ${from} to ${to}: <b>GHS ${route.price.toFixed(2)}</b> · Estimated tim: <b>${route.time}</b>`;
     resultDiv.className = 'success';
   } else {
     result.innerHTML = `
