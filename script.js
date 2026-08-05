@@ -235,7 +235,7 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
 
   if (fares[from] && fares[from][to]) {
     const route = fares[from][to];
-    resultDiv.innerHTML = `Estimated Fare from ${from} to ${to}: <b>GHS ${route.price.toFixed(2)}</b> · Estimated Travel Time: <b>${route.time}</b>`;
+    resultDiv.innerHTML = `Estimated Fare from ${from} to ${to}: <b>GHS ${route.price.toFixed(2)}</b> ·      Estimated Travel Time: <b>${route.time}</b>`;
     resultDiv.className = 'success';
   } else {
     resultDiv.innerHTML = `
